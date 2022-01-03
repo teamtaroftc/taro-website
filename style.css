@@ -1,27 +1,36 @@
-/* HOME PAGE */
+/* ENTRY PAGE */
 html {
     background-color: #E0BCE7;
 }
 
-.entry-shape {
+body {
+    overflow: hidden;
+}
+
+.entry-shape-round {
     position: absolute;
-    height: 100%;
-    width: 50%;
-    right: 0%;
-    border-radius: 100%;
+    height: 150%;
+    width: 70%;
+    left: 30%;
+    border-radius: 100% 0% 0% 100%;
 
     background: #000000;
-    z-index: 0;
+    z-index: 1;
+}
+
+.entry-main-text {
+    position: absolute;
+    z-index: 2;
+    left: 25% !important;
+    padding-bottom: 5%;
 }
 
 .entry-team-number {
-    position: absolute;
     left: 40.07%;
     right: 51.39%;
     top: 35.74%;
     bottom: 59.77%;
 
-    font-family: Manrope;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -29,45 +38,65 @@ html {
     letter-spacing: 0.22em;
     font-family: 'Manrope', sans-serif;
 
-    z-index: 1;
     color: #FFFFFF;
 }
 
 .entry-logo {
     position: absolute;
-    width: 412px;
-    height: 412px;
-    left: 76px;
-    top: 306px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
+    right: 60%;
+
+    z-index: 3;
+    top: 50%;
+    margin: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .entry-title {
-    position: absolute;
-    width: 782px;
-    height: 127px;
-    left: 577px;
-    top: 422px;
-
     font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 85px;
+    font-weight: 900;
+    font-size: 80px;
     line-height: 100px;
     letter-spacing: 0.3em;
+    -webkit-text-stroke-width: 3.5px;
+    -webkit-text-stroke-color: #E0BCE7;
+    color: #000000;
 
     font-family: 'Raleway', sans-serif;
-    border: 5px solid #E0BCE7;
 }
 
 .entry-enter {
     position: absolute;
     font-family: 'Manrope', sans-serif;
-    width: 253px;
-    height: 76px;
-    left: 577px;
-    top: 579px;
-    
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    text-emphasis-color: #000000;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     background: #E0BCE7;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: none;
 }
+
+.entry-enter:hover {
+    background: #E0BCE7;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* HOME PAGE */
