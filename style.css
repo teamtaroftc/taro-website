@@ -1,0 +1,70 @@
+/* HOME PAGE */
+
+.home-shape {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: -295px;
+    border-radius: 90% 0px 0px 90%;
+
+    background: #000000;
+    z-index: 0;
+}
+
+.home-team-number {
+    position: absolute;
+    left: 40.07%;
+    right: 51.39%;
+    top: 35.74%;
+    bottom: 59.77%;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.22em;
+    font-family: 'Manrope', sans-serif;
+
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.home-logo {
+    position: absolute;
+    width: 412px;
+    height: 412px;
+    left: 76px;
+    top: 306px;
+    border-radius: 100%;
+}
+
+.home-title {
+    position: absolute;
+    width: 782px;
+    height: 127px;
+    left: 577px;
+    top: 422px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 100px;
+    letter-spacing: 0.3em;
+
+    font-family: 'Raleway', sans-serif;
+    border: 5px solid #E0BCE7;
+}
+
+.home-enter {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    width: 253px;
+    height: 76px;
+    left: 577px;
+    top: 579px;
+    
+    background: #E0BCE7;
+    border-radius: 15px;
+}
