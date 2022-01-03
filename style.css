@@ -1,17 +1,20 @@
 /* HOME PAGE */
+html {
+    background-color: #E0BCE7;
+}
 
-.home-shape {
+.entry-shape {
     position: absolute;
-    width: 70%;
     height: 100%;
-    top: -295px;
-    border-radius: 90% 0px 0px 90%;
+    width: 50%;
+    right: 0%;
+    border-radius: 100%;
 
     background: #000000;
     z-index: 0;
 }
 
-.home-team-number {
+.entry-team-number {
     position: absolute;
     left: 40.07%;
     right: 51.39%;
@@ -30,7 +33,7 @@
     color: #FFFFFF;
 }
 
-.home-logo {
+.entry-logo {
     position: absolute;
     width: 412px;
     height: 412px;
@@ -39,7 +42,7 @@
     border-radius: 100%;
 }
 
-.home-title {
+.entry-title {
     position: absolute;
     width: 782px;
     height: 127px;
@@ -57,7 +60,7 @@
     border: 5px solid #E0BCE7;
 }
 
-.home-enter {
+.entry-enter {
     position: absolute;
     font-family: 'Manrope', sans-serif;
     width: 253px;
