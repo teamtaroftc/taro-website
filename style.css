@@ -1,10 +1,8 @@
 /* ENTRY PAGE */
-html {
-    background-color: #E0BCE7;
-}
 
 body {
     overflow: hidden;
+    background-color: #E0BCE7;
 }
 
 .entry-shape-round {
@@ -96,6 +94,29 @@ body {
     margin: 0;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.home-temp-text {
+    padding: 5%;
+}
+
+.tarohacks-center-div {
+    max-width: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarohacks-heading-text {
+    font-family: Raleway;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 0.3em;
+}
+
+.tarohacks-main-info {
+    padding-bottom: 20px;
 }
 
 /* HOME PAGE */
