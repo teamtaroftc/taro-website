@@ -1,6 +1,7 @@
 body {
     overflow: hidden;
     background-color: #E0BCE7;
+    overflow-y: auto; /* Show scrollbar */
 }
 
 /* ENTRY PAGE */
